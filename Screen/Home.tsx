@@ -209,6 +209,15 @@ const Home: React.FC<Props> = ({ navigation }) => {
 					<Text style={{ fontSize: 14, color: "#121e02" }}>View All</Text>
 				</TouchableOpacity>
 			</View>
+			<View
+				style={{
+					width: "100%",
+					backgroundColor: "#cff6db",
+					padding: 20,
+					borderRadius: 20,
+				}}>
+				<Text style={{ fontSize: 18 }}>Get Loan offers from Us</Text>
+			</View>
 		</View>
 	);
 };
@@ -294,6 +303,7 @@ const styles = StyleSheet.create({
 		display: "flex",
 		flexDirection: "row",
 		justifyContent: "space-between",
+		paddingBottom: 20,
 	},
 	button: {
 		backgroundColor: "#fff",
